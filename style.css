@@ -1,0 +1,77 @@
+/* element Selector */
+
+body {
+    background-color: rgb(12, 12, 43);
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: ;
+}
+
+/* ID Selector */
+
+#container {
+    margin-left: 0%;
+    padding: 0%; 
+}
+
+/* Class Selector  */
+
+.container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-fluid {
+    width: 100;
+   
+    
+}
+
+.header {
+    background-color: crimson;
+    padding: 20px;
+}
+
+.nav{
+    padding: 20px;
+    background-color: #932210
+    padding battom; 20px;
+    
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+.nav a:hover {
+    background-color: #f3825b;
+    padding-left: 40px;
+    transition: 0.5s;
+}
+
+.nav a.active {
+    background-color: #932210;
+}
+
+.content {
+    background-color: darkcyan;
+    padding: 20px;
+    float: left;
+    width: 60%;
+    margin-right: 20px;
+}
+
+.sidebar {
+    background-color: #932210;
+    padding: 20px;
+}
+
+.footer {
+    background-color: black;
+
+}
